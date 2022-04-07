@@ -1,0 +1,8 @@
+tmp
+**__pycache__**
+dist
+build
+*.spec
+*.mp4
+*.run
+env

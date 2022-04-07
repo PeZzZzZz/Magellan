@@ -1,0 +1,12 @@
+Google = https://www.google.com/search?channel=fs&q=
+Yahoo = https://fr.search.yahoo.com/search?p=
+Bing = https://www.bing.com/search?q=
+DuckduckGo = https://duckduckgo.com/?q=
+Qwant = https://www.qwant.com/?q=
+Baidu = https://www.baidu.com/s?wd=
+AOL = https://search.aol.com/aol/search;_ylt=AwrJ7J3W3k1ivucAPyBoCWVH;_ylc=X1MDMTE5NzgwMzg4MARfcgMyBGZyAwRmcjIDc2ItdG9wLXNlYXJjaARncHJpZANIVEJrUlJmQVRleW5EN0QzSkFuTlBBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4Dc2VhcmNoLmFvbC5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzQEcXVlcnkDVEVTVAR0X3N0bXADMTY0OTI3MDQ5NQ--?q=TEST :/
+Ask = https://www.ask.com/web?q=
+Excite = https://results.excite.com/serp?q=
+Yandex = https://yandex.com/search/?text=
+QihooSE = https://www.so.com/s?q=
+Naver = https://search.naver.com/search.naver?query=
