@@ -20,13 +20,6 @@ from modules.webview import SearchEngineView
 class Magellan(QWidget):
     def __init__(self):
         QWidget.__init__(self)
-#        self.engine = ''
-#        for self.engine, v in self.config.items():
-#            exec(self.engine + " = 'QWebEngineView()'")
-#        self.test = 'self.var'
-#        exec(self.var + " = 'coucou'")
-#        print(self.var)
-#        print(self.__dict__.keys())
         self.config = readconf()
         self.mainbox = QGroupBox("Engines")
         self.secondwindow = None
@@ -58,14 +51,10 @@ class Magellan(QWidget):
         self.qihoobutton.setFixedHeight(20)
         self.naverbutton = QPushButton('Naver')
         self.naverbutton.setFixedHeight(20)
-        #self.search_engine = 'google'
-        #self.webview_window = SearchEngineView(self.search_engine, self.searchterm)
         self.initUI()
 
     def initUI(self):
         self.setWindowTitle("Magellan World Browser")
-#        self.setStyleSheet("background-color: #1E2021; color: white;")
-        #self.mainbox.setStyleSheet("background-repeat: no-repeat; background-position:center center;background-image:url(./rosa_blue3.png); background-color: #1E2021; color: white;")
         self.resize(350, 450)
 
         # main layout 
@@ -152,10 +141,7 @@ class Magellan(QWidget):
         else:
             self.secondwindow.destroy()
             self.secondwindow = SearchEngineView(search_engine=search_engine, searchterm=self.searchterm)
-        #self.secondwindow.show()
-        #self.webview_window.show()
             self.secondwindow.show()
-        #self.secondwindow.initUI()
 
 stylesheet = """
     Magellan {
